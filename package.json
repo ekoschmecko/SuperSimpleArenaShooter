@@ -1,0 +1,12 @@
+{
+  "name": "super-simple-arena-shooter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:local": "node scripts/build-standalone.cjs",
+    "test": "node scripts/build-standalone.cjs --check && node tests/smoke.cjs && node tests/touch.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
